@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Required for Next.js on Netlify
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Environment variables (set these in Netlify UI for security)
+# DATABASE_URL = "your-production-db-url"
+# RESEND_API_KEY = "your-resend-key"

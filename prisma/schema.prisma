@@ -1,0 +1,63 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Use PostgreSQL for production (Neon, Supabase, etc.)
+// For local development with SQLite, use: DATABASE_URL="file:./dev.db"
+// For production PostgreSQL, set DATABASE_URL to your provider's connection string
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model RestaurantRegistration {
+  id              String   @id @default(cuid())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  status          String   @default("pending") // pending, contacted, approved, rejected
+
+  // Restaurant Details
+  restaurantName  String
+  cuisineType     String
+  restaurantType  String
+  city            String
+  locality        String
+  fullAddress     String?
+
+  // Contact Information
+  ownerName       String
+  designation     String?
+  phone           String
+  email           String
+  whatsapp        String?
+
+  // Additional Information
+  seatingCapacity String
+  averageCheck    String
+  currentOffers   String?
+  howDidYouHear   String?
+  additionalNotes String?
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([city])
+}
+
+model ContactSubmission {
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+  status         String   @default("new") // new, responded, closed
+  
+  name           String
+  email          String
+  phone          String?
+  restaurantName String?
+  subject        String?
+  message        String
+
+  @@index([status])
+  @@index([createdAt])
+}
