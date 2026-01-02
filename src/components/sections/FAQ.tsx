@@ -8,7 +8,7 @@ const faqs = [
         id: 1,
         question: "Is it really free to join Rewenue?",
         answer:
-            "Absolutely! There are no registration fees, no setup charges, no monthly subscriptions, and no platform commissions. You only offer a discount to cardholders — and that investment comes back as increased footfall and higher average check sizes.",
+            "Absolutely! There are no registration fees, no setup charges, and no monthly subscriptions. You only offer a discount to cardholders — and that investment comes back as increased footfall and higher average check sizes.",
     },
     {
         id: 2,
@@ -18,36 +18,30 @@ const faqs = [
     },
     {
         id: 3,
-        question: "How do you verify that customers are eligible cardholders?",
-        answer:
-            "Every Rewenue customer is verified through our secure integration with partner banks. Customers must have an active eligible credit/debit card to access offers. This ensures you only serve genuine, pre-verified premium cardholders.",
-    },
-    {
-        id: 4,
-        question: "Which banks are you partnered with?",
-        answer:
-            "We have partnerships with leading banks including HDFC Bank, ICICI Bank, Axis Bank, American Express, Kotak Mahindra Bank, and more. Our network is constantly expanding to bring you access to more premium cardholders.",
-    },
-    {
-        id: 5,
         question: "How long does the onboarding process take?",
         answer:
             "The onboarding process is simple and quick. Once you submit your registration form, our team will verify your details and typically complete onboarding within 48-72 hours. You'll be live and ready to welcome premium diners in no time.",
     },
     {
-        id: 6,
+        id: 4,
         question: "Can I cancel my partnership anytime?",
         answer:
             "Yes, there are no lock-in periods or cancellation fees. You can pause or end your partnership at any time with 30 days notice. We believe in earning your partnership through performance, not contracts.",
     },
     {
-        id: 7,
+        id: 5,
         question: "What kind of restaurants do you partner with?",
         answer:
             "We focus on premium dining establishments — fine dining restaurants, upscale casual dining, premium cafés, lounges, and bars. If you're a quality-focused restaurant that values premium clientele, we'd love to partner with you.",
     },
     {
-        id: 8,
+        id: 6,
+        question: "How much do you charge from restaurants?",
+        answer:
+            "We only charge when you make money that is when customers with particular credit cards dine at your restaurant. For this we charge 5% of the amount spent by the customer (excluding taxes and tips). There are no upfront costs, registration fees, or hidden charges.",
+    },
+    {
+        id: 7,
         question: "How do I track the performance of my Rewenue partnership?",
         answer:
             "We're building a comprehensive partner dashboard where you'll be able to track redemptions, customer insights, and performance metrics. Until then, our partner success team provides regular performance reports and insights.",

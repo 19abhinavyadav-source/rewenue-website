@@ -21,10 +21,10 @@ const valueProps = [
                 <path d="M9 12l2 2 4-4" />
             </svg>
         ),
-        title: "Zero Platform Commission",
-        description: "Keep 100% of your earnings. We don't take a single rupee from your sales or transactions.",
-        highlight: "0%",
-        highlightLabel: "commission always",
+        title: "Zero Marketing Spend",
+        description: "Reach 50,000+ premium diners without spending a rupee on marketing. We handle all promotion for you.",
+        highlight: "₹0",
+        highlightLabel: "marketing spend",
     },
     {
         icon: (
@@ -36,7 +36,7 @@ const valueProps = [
             </svg>
         ),
         title: "Premium Cardholders",
-        description: "Access verified diners from top banks — HDFC, ICICI, Axis, Amex, and more. High spenders, guaranteed.",
+        description: "Access verified diners from top banks. High spenders, guaranteed.",
         highlight: "50K+",
         highlightLabel: "verified diners",
     },
@@ -64,7 +64,7 @@ export function ValueProposition() {
                     </h2>
                     <p className={styles.subtitle}>
                         We've eliminated every barrier that holds restaurants back. No fees, no
-                        commissions, no risk — just growth.
+                        marketing spend, no risk — just growth.
                     </p>
                 </header>
 

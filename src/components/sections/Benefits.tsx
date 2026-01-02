@@ -42,7 +42,7 @@ const benefits = [
             </svg>
         ),
         title: "Bank Partner Network",
-        description: "Direct partnerships with HDFC, ICICI, Axis, Amex, and other leading banks gives you access to their premium cardholders.",
+        description: "Partnerships with leading banks gives you access to their premium cardholders.",
     },
     {
         icon: (

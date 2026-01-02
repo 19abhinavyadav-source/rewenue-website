@@ -32,7 +32,7 @@ export function Hero() {
                     {/* Subheadline */}
                     <p className={styles.subheadline}>
                         Partner with Rewenue to access verified, high-spending cardholders from
-                        leading banks. <strong>Zero registration fee. Zero commission.</strong>{" "}
+                        leading banks. <strong>Zero registration fee. Zero marketing spend.</strong>{" "}
                         Only pay for results.
                     </p>
 
