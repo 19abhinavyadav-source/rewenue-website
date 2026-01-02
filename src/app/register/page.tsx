@@ -296,7 +296,7 @@ export default function RegisterPage() {
                                     <polyline points="22 4 12 14.01 9 11.01" />
                                 </svg>
                                 <div>
-                                    <strong>Zero Registration Fee</strong>
+                                    <strong className={styles.highlight}>Zero Registration Fee</strong>
                                     <span>No upfront costs to join</span>
                                 </div>
                             </div>
@@ -306,8 +306,8 @@ export default function RegisterPage() {
                                     <polyline points="22 4 12 14.01 9 11.01" />
                                 </svg>
                                 <div>
-                                    <strong>Zero Platform Commission</strong>
-                                    <span>Keep 100% of your earnings</span>
+                                    <strong className={styles.highlight}>Zero Marketing Spend</strong>
+                                    <span>Reach out to verified premium cardholders without spending a penny</span>
                                 </div>
                             </div>
                             <div className={styles.benefit}>
@@ -316,7 +316,7 @@ export default function RegisterPage() {
                                     <polyline points="22 4 12 14.01 9 11.01" />
                                 </svg>
                                 <div>
-                                    <strong>Go Live in 48 Hours</strong>
+                                    <strong className={styles.highlight}>Go Live in 48 Hours</strong>
                                     <span>Quick and easy onboarding</span>
                                 </div>
                             </div>
@@ -326,7 +326,7 @@ export default function RegisterPage() {
                     <div className={styles.infoFooter}>
                         <p>
                             Questions? <a href="/contact">Contact us</a> or call{" "}
-                            <a href="tel:+919876543210">+91 98765 43210</a>
+                            <a href="tel:+917898289395">+91 78982 89395</a>
                         </p>
                     </div>
                 </div>

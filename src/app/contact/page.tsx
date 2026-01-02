@@ -148,7 +148,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3>Phone</h3>
-                                <a href="tel:+919876543210">+91 98765 43210</a>
+                                <a href="tel:+917898289395">+91 78982 89395</a>
                                 <p>Mon - Sat, 10am - 7pm IST</p>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3>Email</h3>
-                                <a href="mailto:partners@rewenue.com">partners@rewenue.com</a>
+                                <a href="mailto:partners.rewenue@gmail.com">partners.rewenue@gmail.com</a>
                                 <p>We'll respond within 24 hours</p>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ export default function ContactPage() {
                             <div>
                                 <h3>WhatsApp</h3>
                                 <a
-                                    href="https://wa.me/919876543210?text=Hi, I'm interested in partnering with Rewenue"
+                                    href="https://wa.me/917898289395?text=Hi, I'm interested in partnering with Rewenue"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

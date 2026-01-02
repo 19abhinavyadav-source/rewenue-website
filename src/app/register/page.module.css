@@ -139,6 +139,14 @@
     font-weight: var(--font-semibold);
 }
 
+.highlight {
+    background: linear-gradient(120deg, #FFD700 0%, #FFA500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: var(--font-bold);
+}
+
 .benefit span {
     font-size: var(--text-sm);
     color: rgba(255, 255, 255, 0.6);

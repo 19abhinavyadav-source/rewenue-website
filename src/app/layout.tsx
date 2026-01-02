@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Rewenue",
     title: "Rewenue - Partner With India's Premium Dining Network",
     description:
-      "Join India's fastest-growing premium dining network. Access verified, high-spending cardholders with zero fees and zero commission.",
+      "Join India's fastest-growing premium dining network. Access verified, high-spending cardholders with zero fees and zero marketing spend.",
     images: [
       {
         url: "/og-image.jpg",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rewenue - Partner With India's Premium Dining Network",
     description:
-      "Join India's fastest-growing premium dining network. Zero fees. Zero commission. 100% risk-free.",
+      "Join India's fastest-growing premium dining network. Zero fees. Zero marketing spend. 100% risk-free.",
     images: ["/og-image.jpg"],
   },
   robots: {

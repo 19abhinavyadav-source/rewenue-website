@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
     title: "Features - Premium Dining Network for Restaurants",
     description:
-        "Discover how Rewenue helps restaurants access verified premium cardholders, increase footfall, and grow revenue with zero fees and zero commission.",
+        "Discover how Rewenue helps restaurants access verified premium cardholders, increase footfall, and grow revenue with zero fees and zero marketing spend.",
 };
 
 const features = [
@@ -25,7 +25,7 @@ const features = [
         highlights: [
             "50,000+ verified premium cardholders",
             "40% higher average order value",
-            "Customers from HDFC, ICICI, Axis, Amex, and more",
+            "Customers from top banks and credit cards",
         ],
     },
     {
@@ -37,9 +37,9 @@ const features = [
                 <path d="M12 18V6" />
             </svg>
         ),
-        title: "Zero Fees, Zero Commission",
+        title: "Zero Fees, Zero Marketing Spend",
         description:
-            "We've eliminated all barriers to entry. No registration fees, no monthly subscriptions, no platform commissions. Your profit margins remain untouched.",
+            "We've eliminated all barriers to entry. No registration fees, no monthly subscriptions, no hidden charges. You do not need to spend anything to market to these customers. We do it for you.",
         highlights: [
             "₹0 registration fee",
             "0% platform commission",
